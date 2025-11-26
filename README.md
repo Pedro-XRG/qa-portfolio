@@ -121,4 +121,4 @@ Communication & documentation
 
 Email: pxrg1993@outlook.pt
 
-LinkedIn: (optional, we can create one later)
+LinkedIn: https://www.linkedin.com/in/pedro-peter-guedes-71927b247/
