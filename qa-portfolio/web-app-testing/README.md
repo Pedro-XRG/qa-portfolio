@@ -1,5 +1,11 @@
 📌 Test Scope — Trello Web App
 
+
+You can download the excel file either in "trello_board_test_cases.xlsx" or in "web-app-testing/test-cases/trello_board_test_cases.xlsx
+"
+
+
+
 This project evaluates the core functionality of the Trello Web Application using manual testing techniques.
 The objective is to demonstrate my ability to design test cases, perform exploratory testing, identify defects, and document them clearly.
 
