@@ -1,65 +1,36 @@
 Bug report: Trello “Add Card” stops responding after rapid input edits
 
-
-
 Environment:
-
-
 Browser: Brave
-
 OS: Windows 11
-
 URL: https://trello.com
-
-
 
 Title: Add Card field becomes unresponsive after quickly editing the card name multiple times
 
-
-
 Severity: Low–Medium (inconsistent impact)
 
-
 Description:
-
 While testing basic list/card interactions, I noticed that rapidly editing the text inside a new card field (typing, deleting, retyping) sometimes causes the input to stop accepting keystrokes. The cursor stays visible but the field no longer updates. Clicking outside the card cancels it entirely.
 
-
-
 Steps to Reproduce:
-
-
 - Create a new board
-
-- In the first list, click “Add a card”
-
+- In the first list, click “Add a card” 
 - Type a short sentence
-
 - Immediately delete it with backspace
-
 - Retype something different
-
 - Repeat typing/deleting 2–3 times quickly
-
 - Observe whether the input stops responding
-
 
 
 Expected Result: The input field should always accept keystrokes until the user clicks outside or confirms the card.
 
-
 Actual Result: After a few fast edits, the input freezes; typing does nothing. The card disappears if you click outside.
 
-
-
-Reproducibility:Not consistent — happened 3 times out of 5 attempts.
-
+Reproducibility: Not consistent — happened 3 times out of 5 attempts.
 
 
 Notes:
 
-No console errors;
-
-Only happens on the first card added to a list, not subsequent ones;
-
-Might be tied to Trello’s save logic.
+- No console errors;
+- Only happens on the first card added to a list, not subsequent ones;
+- Might be tied to Trello’s save logic.
