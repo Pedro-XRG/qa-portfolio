@@ -1,6 +1,8 @@
-Bug report: Board Title Not Updating After Rename Until Hard Refresh
+Bug report: List Fails to Refresh After Card Movement
+
 
 Environment:
+
 Platform- Trello
 Browser- Brave
 OS- Windows 11
@@ -9,38 +11,39 @@ Account Type- Standard user
 Network- Stable (500 Mbps)
 
 
-Title: Add Card field becomes unresponsive after quickly editing the card name multiple times
+Title: List Does Not Refresh Automatically After Moving a Card
 
 
-Severity: Low–Medium (inconsistent impact)
+Severity: Low
+
+Priority: Low
 
 
 Description:
-While testing basic list/card interactions, I noticed that rapidly editing the text inside a new card field (typing, deleting, retyping) sometimes causes the input to stop accepting keystrokes. The cursor stays visible but the field no longer updates. Clicking outside the card cancels it entirely.
+If the user is logged in and there's at least two lists within the same board, the list does not refresh automatically when the user moves a card to a different list. 
 
 
 Steps to Reproduce:
-- Create a new board
-- In the first list, click “Add a card” 
-- Type a short sentence
-- Immediately delete it with backspace
-- Retype something different
-- Repeat typing/deleting 2–3 times quickly
-- Observe whether the input stops responding
+
+- Open any board containing multiple lists
+- Select a card in List A
+- Drag and drop the card into List B
+- Observe List A immediately after the card leaves it
 
 
-Expected Result: The input field should always accept keystrokes until the user clicks outside or confirms the card.
+Expected Result: List A should immediately refresh and remove the card from its view without requiring user action.
 
-Actual Result: After a few fast edits, the input freezes; typing does nothing. The card disappears if you click outside.
+Actual Result: List A does not visually update after the card is moved — the UI keeps showing the card as if it were still inside the original list. The list only updates after the user performs a manual refresh (F5).
 
 
-Reproducibility: Not consistent — happened 3 times out of 5 attempts.
+Reproducibility: Consistent- 100% of the times under the described circumstances.
 
 
 Notes:
 
-- No console errors
-- Only happens on the first card added to a list, not subsequent ones
-- Might be tied to Trello’s save logic
+- Could be related to network latency
+- No console errors observed
+- Not functionally blocking, but causes momentary confusion
+
 
 (Disclaimer: This is a fictitious report meant as a knowledge showcase, none of the issues displayed above are present in the website in question.)
