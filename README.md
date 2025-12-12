@@ -5,7 +5,6 @@ Welcome to my Quality Assurance portfolio.
 
 
 This repository showcases my practical experience in:
-
 Manual software testing
 
 Bug reporting & defect reproduction
