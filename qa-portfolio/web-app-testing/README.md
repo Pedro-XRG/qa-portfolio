@@ -1,4 +1,4 @@
-📌 Test Scope — Trello Web App
+Test Scope — Trello Web App
 
 
 You can download the excel file either in "trello_board_test_cases.xlsx" or in "web-app-testing/test-cases/trello_board_test_cases.xlsx
@@ -34,8 +34,8 @@ Error handling
 Basic performance observations
 
 
-✔️ Test Cases — Board Creation
-🧪 TC01 — Create a new board successfully
+Test Cases — Board Creation
+TC01 — Create a new board successfully
 
 Objective: Verify that the user can create a new board.
 Preconditions: User is logged in.
@@ -52,7 +52,7 @@ Click “Create.”
 Expected Result:
 A new board is created and displayed on the workspace.
 
-🧪 TC02 — Board creation with empty board name
+TC02 — Board creation with empty board name
 
 Objective: Verify that Trello prevents board creation without a name.
 Preconditions: User is logged in.
@@ -69,7 +69,7 @@ Click “Create.”
 Expected Result:
 An error message appears, and no board is created.
 
-🧪 TC03 — Board name maximum character limit
+TC03 — Board name maximum character limit
 
 Objective: Check how Trello handles very long board names.
 Preconditions: User is logged in.
@@ -86,14 +86,14 @@ Click “Create.”
 Expected Result:
 Board is created successfully OR Trello shows a validation message (depends on actual behavior; we will test and record).
 
-🧪 TC04 — Create board with special characters
+TC04 — Create board with special characters
 
 Objective: Ensure the app allows typical special characters in board names.
 Steps: Create a board named @@@ !!! ### ??? TrelloTest123
 Expected Result:
 Board is created normally (unless Trello blocks some characters).
 
-🧪 TC05 — Cancel board creation
+TC05 — Cancel board creation
 
 Objective: Verify that clicking “Cancel” stops the process.
 Expected Result:
