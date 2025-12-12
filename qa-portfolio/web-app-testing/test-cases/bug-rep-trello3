@@ -1,4 +1,4 @@
-Bug report: List Fails to Refresh After Card Movement
+Bug report: Background image not updating.
 
 
 Environment:
@@ -11,39 +11,42 @@ Account Type- Standard user
 Network- Stable (500 Mbps)
 
 
-Title: List Does Not Refresh Automatically After Moving a Card
+Title: Board background image fails to update after selecting a new background.
 
 
-Severity: Low
+Severity: Medium
 
-Priority: Low
+Priority: Medium
 
 
-Description:
-If the user is logged in and there's at least two lists within the same board, the list does not refresh automatically when the user moves a card to a different list. 
+Preconditions:
+- User is logged in
+- At least one board exists
+- Board has a default background assigned
 
 
 Steps to Reproduce:
-
-- Open any board containing multiple lists
-- Select a card in List A
-- Drag and drop the card into List B
-- Observe List A immediately after the card leaves it
-
-
-Expected Result: List A should immediately refresh and remove the card from its view without requiring user action.
-
-Actual Result: List A does not visually update after the card is moved — the UI keeps showing the card as if it were still inside the original list. The list only updates after the user performs a manual refresh (F5).
+- Open Trello and navigate to any existing board
+- Click Show Menu on the right sidebar
+- Select Background
+- Choose any new background image from the gallery
+- Wait for the change to apply
 
 
-Reproducibility: Consistent- 100% of the times under the described circumstances.
+Expected Result: The selected background image is immediately applied to the board and displayed to the user without delay.
 
 
-Notes:
+Actual Result: The board background does not update, and the previous background remains visible.
+Refreshing the page eventually applies the new background.
 
-- Could be related to network latency
-- No console errors observed
-- Not functionally blocking, but causes momentary confusion
+
+Reproducibility: Inconsistent (~40% of the times tested).
+
+
+Additional Notes:
+- Happens intermittently; issue reproduced 4 out of 10 times
+- No console errors detected
+- Possibly related to caching or asynchronous UI updates
 
 
 (Disclaimer: This is a fictitious report meant as a knowledge showcase, none of the issues displayed above are present in the website in question.)
