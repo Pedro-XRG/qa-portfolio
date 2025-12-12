@@ -1,4 +1,4 @@
-✨ Pedro Guedes — QA Tester Portfolio
+Pedro Guedes — QA Tester Portfolio
 
 Welcome to my Quality Assurance portfolio.
 This repository showcases my practical experience in:
@@ -18,9 +18,9 @@ Python scripting for QA
 Game QA (PvP, PvE, balance, mechanics, systems)
 
 
-📂 Portfolio Projects
+Portfolio Projects
 
-1️⃣ Web App Manual Testing Project
+1️Web App Manual Testing Project
 
 Functional test cases
 
@@ -31,9 +31,9 @@ Bug reports with steps to reproduce
 Screenshots and expected vs actual results
 
 
-📁 Folder: web-app-testing (coming soon)
+Folder: web-app-testing (coming soon)
 
-2️⃣ API Testing with Postman
+2️API Testing with Postman
 
 Collections covering CRUD operations
 
@@ -46,9 +46,9 @@ Negative test cases
 Response validation & JSON checks
 
 
-📁 Folder: api-testing (coming soon)
+Folder: api-testing (coming soon)
 
-3️⃣ Python QA Utilities
+Python QA Utilities
 
 Small automation scripts
 
@@ -59,10 +59,10 @@ Data parsing
 API calling scripts
 
 
-📁 Folder: python-qa-scripts (coming soon)
+Folder: python-qa-scripts (coming soon)
 
-🎮 Game QA Projects
-4️⃣ Gameplay Bug Reports
+Game QA Projects
+Gameplay Bug Reports
 
 Edge case discovery
 
@@ -73,9 +73,9 @@ Severity & priority
 Screenshots / clips
 
 
-📁 Folder: game-bug-reports (coming soon)
+Folder: game-bug-reports (coming soon)
 
-5️⃣ Game System Breakdown & Testing
+5️Game System Breakdown & Testing
 
 A case study testing mechanics such as:
 
@@ -92,9 +92,9 @@ Economy
 PvP/PvE interactions
 
 
-📁 Folder: game-system-analysis (coming soon)
+Folder: game-system-analysis (coming soon)
 
-🧪 Skills Demonstrated
+Skills Demonstrated
 
 Manual Testing
 
@@ -117,7 +117,7 @@ Critical thinking
 Communication & documentation
 
 
-📬 Contact
+Contact
 
 Email: pxrg1993@outlook.pt
 
