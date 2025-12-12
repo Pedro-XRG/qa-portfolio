@@ -1,11 +1,11 @@
-Pedro Guedes — QA Tester Portfolio
+-> Pedro Guedes — QA Tester Portfolio
 
 
-Welcome to my Quality Assurance portfolio.
+-> Welcome to my Quality Assurance portfolio.
 
 
 This repository showcases my practical experience in:
-Manual software testing
+- Manual software testing
 
 Bug reporting & defect reproduction
 
@@ -20,7 +20,7 @@ Python scripting for QA
 Game QA (PvP, PvE, balance, mechanics, systems)
 
 
-Portfolio Projects:
+-> Portfolio Projects:
 
 
 1️Web App Manual Testing Project
@@ -35,9 +35,9 @@ Screenshots and expected vs actual results
 
 
 
-Folder: web-app-testing (coming soon)
+-> Folder: web-app-testing (coming soon)
 
-2️API Testing with Postman
+API Testing with Postman
 
 Collections covering CRUD operations
 
@@ -50,7 +50,7 @@ Negative test cases
 Response validation & JSON checks
 
 
-Folder: api-testing (coming soon)
+-> Folder: api-testing (coming soon)
 
 Python QA Utilities
 
@@ -63,12 +63,12 @@ Data parsing
 API calling scripts
 
 
-Folder: python-qa-scripts (coming soon)
+-> Folder: python-qa-scripts (coming soon)
 
 
-Game QA Projects
+-> Game QA Projects:
+
 Gameplay Bug Reports
-
 
 Edge case discovery
 
@@ -79,13 +79,13 @@ Severity & priority
 Screenshots / clips
 
 
-Folder: game-bug-reports (coming soon)
+-> Folder: game-bug-reports (coming soon)
 
 
-5️Game System Breakdown & Testing
+Game System Breakdown & Testing
 
 
-A case studytesting mechanics such as:
+- A case studytesting mechanics such as:
 
 
 Movement
@@ -102,7 +102,7 @@ PvP/PvE interactions
 
 
 
-Folder: game-system-analysis (coming soon)
+-> Folder: game-system-analysis (coming soon)
 
 Skills Demonstrated
 
